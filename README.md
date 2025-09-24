@@ -20,7 +20,7 @@ Proyecto sencillo en **PHP + MySQL (XAMPP)** que permite registrar usuarios en u
 ## ⚙️ Configuración
 1. Clona este repositorio o copia los archivos a tu carpeta `htdocs` de XAMPP:
    ```bash
-   git clone https://github.com/tuusuario/tu-repo.git
+   git clone https://github.com/carlosdp521-hub/semana7
    ```
 
 2. Crea la base de datos en **phpMyAdmin** o desde consola:
@@ -58,4 +58,4 @@ Proyecto sencillo en **PHP + MySQL (XAMPP)** que permite registrar usuarios en u
 - Consultas seguras con `PDO::prepare()` para evitar SQL Injection.
 
 ## 📌 Autor
-Creado por [Tu Nombre] ✨
+Creado por Carlos M. Di Piazza F. ✨
