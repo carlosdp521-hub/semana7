@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica El Bienestar - Inicio</title>
+    <style>
+        /* Estilos generales para el cuerpo de la página */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8; /* Un color de fondo suave y moderno */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #333; /* Color de texto principal */
+        }
+        
+        /* Contenedor principal del contenido */
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 50px 40px; /* Más padding para un look más espacioso */
+            border-radius: 12px; /* Esquinas más suaves */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+            width: 90%;
+            max-width: 600px;
+        }
+
+        /* Estilos para el encabezado */
+        h1 {
+            color: #004085; /* Azul oscuro para un toque profesional */
+            margin-bottom: 10px;
+            font-size: 2.5rem; /* Tamaño de fuente más grande */
+        }
+
+        /* Estilos para el subtítulo */
+        p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        /* Contenedor de los botones */
+        .btn-group {
+            display: flex;
+            flex-direction: column; /* Apila los botones en columnas */
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* Estilos base para los botones */
+        .btn {
+            display: block;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff; /* Color azul para registro de pacientes */
+            border-radius: 8px;
+            transition: transform 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+            font-weight: bold;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+        }
+
+        /* Estilos específicos para el botón de administración */
+        .btn.admin {
+            background-color: #28a745; /* Color verde para acceso administrativo */
+            box-shadow: 0 4px 10px rgba(40, 167, 69, 0.2);
+        }
+
+        /* Efectos al pasar el mouse sobre los botones */
+        .btn:hover {
+            transform: translateY(-3px); /* Efecto de elevación */
+            background-color: #0056b3;
+        }
+
+        .btn.admin:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Clínica El Bienestar</h1>
+    <p>Seleccione su tipo de acceso:</p>
+    <div class="btn-group">
+        <a href="registro_pacientes.php" class="btn">Registro de Pacientes</a>
+        <a href="acceso_administrativo.php" class="btn admin">Acceso Administrativo</a>
+    </div>
+</div>
+
+</body>
+</html>
