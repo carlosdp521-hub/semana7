@@ -68,11 +68,6 @@ try {
     <title>Ver Pacientes</title>
     <link rel="stylesheet" href="estilos.css">
     <style>
-        .table-container {
-            width: 100%;
-            overflow-x: auto;
-            margin-top: 20px;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -106,12 +101,6 @@ try {
             display: flex;
             gap: 10px;
             align-items: center;
-        }
-        .search-form input[type="text"] {
-            flex-grow: 1;
-        }
-        .pagination {
-            text-align: center;
         }
         .pagination a, .pagination span {
             display: inline-block;
